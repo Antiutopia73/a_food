@@ -1,0 +1,166 @@
+{
+    "data": [
+        {"ourQualities" : [
+            {
+                "id": 1,
+                "image": "./quality_food.svg",
+                "title": "QUALITY FOOD",
+                "description": "At A_FOOD, quality is our top priority. We source only the finest ingredients, ensuring that every burger is made with fresh, locally grown produce and premium meats." 
+            },
+            {
+                "id": 2,
+                "image": "./super_taste.svg",
+                "title": "SUPER TASTE",
+                "description": "Every bite is packed with flavor. Our expertly crafted burgers are designed to deliver a truly exceptional taste experience." 
+            },
+            {
+                "id": 3,
+                "image": "./fast_delivery.svg",
+                "title": "FAST DELIVERY",
+                "description": "We know how important it is to enjoy your meal while it’s hot and fresh. That’s why we offer fast and reliable delivery to bring our delicious burgers straight to your door." 
+            }
+        ],
+        "dishes": [
+            {
+                "id": 1,
+                "image": "./dinner1.jpeg",
+                "title": "CHICKEN 'TENDER' BURGER"
+            },
+            {
+                "id": 2,
+                "image": "./dinner2.png",
+                "title": "BEEF 'DEEP' BURGER"
+            },
+            {
+                "id": 3,
+                "image": "./breakfast1.png",
+                "title": "3 TIER 'MAD' BURGER"
+            },
+            {
+                "id": 4,
+                "image": "./dinner3.png",
+                "title": "VEGAN BURGER"
+            },
+            {
+                "id": 5,
+                "image": "./lunch1.png",
+                "title": "FISH BURGER"
+            },
+            {
+                "id": 6,
+                "image": "./dinner4.png",
+                "title": "BRANDED FRIED POTATO"
+            },
+            {
+                "id": 7,
+                "image": "./dinner5.png",
+                "title": "BRANDED SICILIAN LEMONADE"
+            },
+            {
+                "id": 8,
+                "image": "./dinner6.png",
+                "title": "HOT SAUCE FOR POTATO"
+            }
+        ],
+        "team": [
+            {
+                "id": 1,
+                "image": "./team_member_1.png",
+                "name": "MARK MILBORNE",
+                "designation": "Founder & Head Chef"
+            },
+            {
+                "id": 2,
+                "image": "./team_member_2.png",
+                "name": "JAKE WARREN",
+                "designation": "Sous Chef"
+            },
+            {
+                "id": 3,
+                "image": "./team_member_3.png",
+                "name": "TOM FOE",
+                "designation": "Fast Food Chef"
+            },
+            {
+                "id": 4,
+                "image": "./team_member_4.png",
+                "name": "SAMUEL GOAL",
+                "designation": "Senior Chef"
+            }
+        ],
+        "testimonials": [
+            {
+                "id": 1,
+                "image": "./review1.png",
+                "description": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus. Eleifend dui, non laoreet ac luctus facilisis diam. Enim scelerisque vel at id viverra tellus.",
+                "rating": 4,
+                "userName": "Jane Cooper"
+            },
+            {
+                "id": 2,
+                "image": "./review2.png",
+                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+                "rating": 4.5,
+                "userName": "Esther Howard"
+            },
+            {
+                "id": 3,
+                "image": "./review3.png",
+                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+                "rating": 5,
+                "userName": "Guy Hawkins"
+            }
+        ],
+        "who_we_are": [
+            {
+                "id": 1,
+                "number": "3",
+                "title": "Restaurants"
+            },
+            {
+                "id": 2,
+                "number": "6",
+                "title": "Chef In Kitchen"
+            },
+            {
+                "id": 3,
+                "number": "10",
+                "title": "Years Of Experience"
+            },
+            {
+                "id": 4,
+                "number": "4",
+                "title": "Brand Burgers"
+            }
+        ],
+        "navbarLinks": [
+            {
+                "id": 1,
+                "title": "ABOUT US",
+                "link": "about"
+            },
+            {
+                "id": 2,
+                "title": "SERVICES",
+                "link": "qualities"
+            },
+            {
+                "id": 3,
+                "title": "TEAM",
+                "link": "team"
+            },
+            {
+                "id": 4,
+                "title": "RESERVATION",
+                "link": "reservation"
+            },
+            {
+                "id": 5,
+                "title": "REVIEWS",
+                "link": "comments"
+            }
+        ]
+    
+    } 
+    ]
+}
