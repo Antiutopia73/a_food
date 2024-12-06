@@ -3,7 +3,7 @@ import axios from "axios";
 
 const CommentsPage = () => {
   const [comments, setComments] = useState([]);
-  const [visibleComments, setVisibleComments] = useState(5); // Количество комментариев для отображения
+  const [visibleComments, setVisibleComments] = useState(5);
   const [formData, setFormData] = useState({
     name: "",
     rating: "",
@@ -33,15 +33,15 @@ const CommentsPage = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post("http://localhost:4000/api/v1/comments/create", formData);
-      setComments([...comments, data]); // Добавляем новый комментарий в список
-      setFormData({ name: "", rating: "", message: "" }); // Очищаем форму
+      setComments([...comments, data]);
+      setFormData({ name: "", rating: "", message: "" });
     } catch (error) {
       console.error("Failed to add comment", error);
     }
   };
 
   const showMoreComments = () => {
-    setVisibleComments(visibleComments + 5); // Показываем 5 комментариев за раз
+    setVisibleComments(visibleComments + 5);
   };
 
   return (
