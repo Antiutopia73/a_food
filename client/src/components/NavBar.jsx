@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { data } from "../restApi.json";
-import { Link as RouterLink } from "react-router-dom"; // Импортируем Link из react-router-dom
-import { Link as ScrollLink } from "react-scroll"; // Импортируем Link из react-scroll
+import { Link as RouterLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -17,14 +17,13 @@ const Navbar = () => {
               if (element.link === "comments") {
                 return (
                   <RouterLink
-                    to={`/${element.link}`} // Используем react-router-dom для "REVIEWS"
+                    to={`/${element.link}`} 
                     key={element.id}
                   >
                     {element.title}
                   </RouterLink>
                 );
               }
-              // Остальные ссылки используют react-scroll
               return (
                 <ScrollLink
                   to={element.link}
@@ -43,7 +42,7 @@ const Navbar = () => {
             alt="burger"
             width="62"
             height="62"
-            onClick={() => setShow(!show)} // Для переключения меню
+            onClick={() => setShow(!show)}
           />
         </div>
       </nav>
