@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import { dbConnection } from "./database/dbConnection.js";
 import { errorMiddleware } from './error/error.js';
 import reservationRouter from './routes/reservationRoute.js';
-import commentRouter from './routes/commentRoutes.js'; // Исправлено
+import commentRouter from './routes/commentRoutes.js';
 
 const app = express();
 dotenv.config({ path: './config/config.env' });
