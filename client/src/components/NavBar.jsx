@@ -13,7 +13,6 @@ const Navbar = () => {
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">
             {data[0].navbarLinks.map((element) => {
-              // Условие для ссылки "REVIEWS"
               if (element.link === "comments") {
                 return (
                   <RouterLink
