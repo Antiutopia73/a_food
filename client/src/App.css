@@ -1115,7 +1115,6 @@ footer .container .banner .right {
 }
 /**********************************************************************************************************************/
 
-/* Форма добавления комментариев */
 .add-comment-form {
   margin-top: 20px;
   padding: 20px;
@@ -1154,7 +1153,6 @@ footer .container .banner .right {
   background: #0056b3;
 }
 
-/* Стили для списка комментариев */
 .comments-list {
   list-style: none;
   padding: 0;
@@ -1195,9 +1193,7 @@ footer .container .banner .right {
   color: #495057;
 }
 
-/* Стили для формы добавления комментария */
-
-/* Кнопка "Show More" */
+/* "Show More" */
 .show-more-btn {
   background: #007bff;
   color: white;
@@ -1216,11 +1212,11 @@ footer .container .banner .right {
 }
 
 .no-comments-message {
-  font-size: 2rem; /* Увеличиваем размер шрифта */
-  font-weight: bold; /* Делаем текст жирным */
-  color: #e52b1eb1; /* Яркий цвет для привлечения внимания */
-  text-align: center; /* Центрируем текст */
-  margin-top: 30px; /* Добавляем отступ сверху */
+  font-size: 2rem; 
+  font-weight: bold; 
+  color: #e52b1eb1;
+  text-align: center;
+  margin-top: 30px; 
 }
 
 
