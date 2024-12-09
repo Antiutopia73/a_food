@@ -8,13 +8,10 @@ import commentRouter from './routes/commentRoutes.js';
 
 const app = express();
 dotenv.config({ path: './config/config.env' });
-
- // Исправлено
-
 app.use(
   cors({
     origin: [process.env.FRONTEND_URL],
-    methods: ["POST"],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
   })
 );
