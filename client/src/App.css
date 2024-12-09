@@ -162,7 +162,7 @@ nav svg {
   min-height: 80vh;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(45deg, rgba(152, 209, 200, 0.726), white);
+  background: linear-gradient(45deg, rgba(162, 214, 206, 0.726), white);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -468,7 +468,7 @@ nav svg {
   margin-bottom: 12px;
 }
 .qualities .container .card .description {
-  font-size: 18px;
+  font-size: 21px;
   color: #333;
   font-weight: 300;
 }
@@ -529,7 +529,7 @@ nav svg {
 }
 .menu .container .heading_section p {
   color: #333;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 300;
 }
 .menu .container .dishes_container {
@@ -625,7 +625,7 @@ nav svg {
 }
 .team .container .heading_section p {
   color: #333;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 300;
   margin-bottom: 1.5rem;
 }
@@ -1115,10 +1115,17 @@ footer .container .banner .right {
 }
 /**********************************************************************************************************************/
 
+.comments-page {
+  min-height: 100vh; /* Минимальная высота — 100% высоты окна браузера */
+  justify-content: start;
+  background: linear-gradient(45deg, rgba(162, 214, 206, 0.726), white);
+}
+
+
 .add-comment-form {
   margin-top: 20px;
   padding: 20px;
-  background: #f8f9fa;
+  background: linear-gradient(45deg, rgba(162, 214, 206, 0.726), white);
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: left;
@@ -1136,7 +1143,7 @@ footer .container .banner .right {
   margin-bottom: 15px;
   border: 1px solid #ced4da;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .add-comment-form button {
@@ -1159,7 +1166,7 @@ footer .container .banner .right {
 }
 
 .comment-card {
-  background: rgba(181, 247, 246, 0.543);
+  background: linear-gradient(45deg, white, rgba(162, 214, 206, 0.726));
   margin-bottom: 20px;
   padding: 15px;
   border-radius: 8px;
@@ -1189,11 +1196,12 @@ footer .container .banner .right {
 }
 
 .comment-message {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #495057;
 }
 
-/* "Show More" */
+
+/*"Show More" */
 .show-more-btn {
   background: #007bff;
   color: white;
@@ -1212,11 +1220,11 @@ footer .container .banner .right {
 }
 
 .no-comments-message {
-  font-size: 2rem; 
-  font-weight: bold; 
-  color: #e52b1eb1;
-  text-align: center;
-  margin-top: 30px; 
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e52b1eb1; 
+  text-align: center; 
+  margin-top: 30px;
 }
 
 
