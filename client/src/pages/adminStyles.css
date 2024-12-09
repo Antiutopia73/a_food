@@ -1,0 +1,133 @@
+   h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .MuiBox-root h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .MuiTextField-root {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .MuiInputBase-root {
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .MuiInputLabel-root {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .MuiInputBase-input {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .MuiButton-root {
+    font-size: 16px;
+    border-radius: 50px;
+    text-transform: none;
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: #fff;
+  }
+  
+  .MuiButton-contained {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .MuiButton-contained:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .MuiDataGrid-root {
+    font-size: 16px;
+  }
+  
+  .MuiDataGrid-columnHeader {
+    background-color: #79a3cd;
+    color: #fff;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .MuiDataGrid-columnHeaderTitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .MuiDataGrid-cell {
+    font-size: 16px;
+    color: #555;
+    padding: 10px;
+  }
+  
+  .MuiDataGrid-filterForm {
+    font-size: 16px;
+  }
+  
+  .MuiDataGrid-row {
+    font-size: 16px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .MuiDataGrid-row:hover {
+    background-color: #e3f2fd;
+  }
+  
+  .MuiDataGrid-footerContainer {
+    display: none !important;
+  }
+  
+  .MuiDataGrid-scrollbar {
+    display: none !important;
+  }
+  
+.MuiBox-root {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+.admin-page {
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgba(162, 214, 206, 0.726), white);
+  }
+    
+.MuiDataGrid-root {
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+.MuiDataGrid-cell {
+  font-size: 16px;
+  color: #555;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.MuiDataGrid-footerContainer {
+  display: none !important;
+}
+
+.MuiDataGrid-scrollbar {
+  display: none !important;
+}
