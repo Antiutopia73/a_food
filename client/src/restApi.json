@@ -24,42 +24,50 @@
             {
                 "id": 1,
                 "image": "./dinner1.jpeg",
-                "title": "CHICKEN 'TENDER' BURGER"
+                "title": "CHICKEN 'TENDER' BURGER",
+                "price": "25 FRF"
             },
             {
                 "id": 2,
                 "image": "./dinner2.png",
-                "title": "BEEF 'DEEP' BURGER"
+                "title": "BEEF 'DEEP' BURGER",
+                "price": "30 FRF"
             },
             {
                 "id": 3,
                 "image": "./breakfast1.png",
-                "title": "3 TIER 'MAD' BURGER"
+                "title": "3 TIER 'MAD' BURGER",
+                "price": "35 FRF"
             },
             {
                 "id": 4,
                 "image": "./dinner3.png",
-                "title": "VEGAN BURGER"
+                "title": "VEGAN BURGER",
+                "price": "25 FRF"
             },
             {
                 "id": 5,
                 "image": "./lunch1.png",
-                "title": "FISH BURGER"
+                "title": "FISH BURGER",
+                "price": "25 FRF"
             },
             {
                 "id": 6,
                 "image": "./dinner4.png",
-                "title": "BRANDED FRIED POTATO"
+                "title": "BRANDED FRIED POTATO",
+                "price": "23 FRF"
             },
             {
                 "id": 7,
                 "image": "./dinner5.png",
-                "title": "BRANDED SICILIAN LEMONADE"
+                "title": "BRANDED SICILIAN LEMONADE",
+                "price": "20 FRF"
             },
             {
                 "id": 8,
                 "image": "./dinner6.png",
-                "title": "HOT SAUCE FOR POTATO"
+                "title": "HOT SAUCE FOR POTATO",
+                "price": "10 FRF"
             }
         ],
         "team": [
@@ -158,6 +166,11 @@
                 "id": 5,
                 "title": "REVIEWS",
                 "link": "comments"
+            },
+            {
+                "id": 6,
+                "title": "ADMIN",
+                "link": "panel"
             }
         ]
     
